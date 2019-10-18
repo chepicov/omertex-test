@@ -1,0 +1,16 @@
+.section {
+  padding: 1em 2em 2em 1em;
+  width: 50%;
+  min-width: 400px;
+}
+
+.section__header {
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 1em 1em;
+  font-size: 1rem;
+}
+
+.section + .section {
+  border-left: 1px solid #ccc;
+}

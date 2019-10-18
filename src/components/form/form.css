@@ -1,0 +1,20 @@
+.form {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.form__body {
+  display: flex;
+  overflow-x: auto;
+}
+
+.form__footer {
+  padding: 1em;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form__button + .form__button {
+  margin-left: 1em;
+}
